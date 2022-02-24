@@ -26,32 +26,19 @@ body {
   padding: 5px 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3px;
-  color: #f2f0ef;
-  background-color: #181818;
-}
-
-.box-cuentos {
-  position: absolute;
-  bottom: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
-}
-
-.box-cuentos li {
-  background-color: #181818;
-  color: white;
-  padding: 5px 1rem;
-  margin: 0.4rem;
-  border-radius: 5px;
-  list-style: none;
-}
-
-.box-cuentos li:hover {
-  background-color: #f2f0ef;
+  border-radius: 8px;
   color: #181818;
+  background-color: white;
+  font-weight: bold;
+}
+
+.sub-title {
+  color: navy;
+  text-align: center;
+  margin: 1rem;
+}
+
+.text-parrafo {
+  margin: 1rem;
+  font-size: 1.2em;
 }
