@@ -35,10 +35,11 @@ body {
 .sub-title {
   color: navy;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
+  font-size: 2em;
 }
 
 .text-parrafo {
   margin: 1rem;
-  font-size: 1.2em;
+  font-size: 2em;
 }
