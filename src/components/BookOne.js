@@ -1,4 +1,5 @@
 import BOOK_ONE from '../assets/bookOne.json'
+import PICTURE_ONE from '/picture01.png'
 
 class BookOne extends HTMLElement {
   constructor() {
@@ -49,6 +50,7 @@ class BookOne extends HTMLElement {
         BOOK_ONE.map(date => `<p class='text-parrafo'>${date}</p>`)
           .join('')
       }
+      <img src=${PICTURE_ONE} class="img-end">
     `
     return page
   }

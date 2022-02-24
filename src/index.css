@@ -36,10 +36,17 @@ body {
   color: navy;
   text-align: center;
   margin: 2rem;
-  font-size: 2em;
+  font-size: 2.3em;
 }
 
 .text-parrafo {
   margin: 1rem;
   font-size: 2em;
+}
+
+.img-end {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 4rem;
+  border-radius: 0.5rem;
 }
