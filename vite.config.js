@@ -1,4 +1,4 @@
-const { resolve } = require('path')
+const path = require('path')
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 const base = mode === 'production' ? '/' + path.basename(process.cwd()) + '/' : '/'
 
@@ -12,8 +12,8 @@ module.exports = {
     assetsDir: './',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'src/index.html'),
-        nested: resolve(__dirname, 'src/pages/*.html')
+        main: path.resolve(__dirname, 'src/index.html'),
+        pages: path.resolve(__dirname, 'src/pages/*.html')
       }
     }
   },
