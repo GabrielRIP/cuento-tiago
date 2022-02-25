@@ -13,7 +13,7 @@ module.exports = defineConfig({
     assetsDir: './',
     rollupOptions: {
       input: {
-        pages: path.resolve(__dirname, 'pages/*.html'),
+        pages: path.resolve(__dirname, 'pages/elGatoConBotas/index.html'),
       },
     },
   },
