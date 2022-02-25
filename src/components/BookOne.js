@@ -1,5 +1,5 @@
 import BOOK_ONE from '../assets/bookOne.json'
-import PICTURE_ONE from '/picture01.png'
+import PICTURE_ONE from '/image/picture01.png'
 
 class BookOne extends HTMLElement {
   constructor() {
@@ -59,7 +59,7 @@ class BookOne extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <style>${BookOne.styles}</style>
       <div class="container">
-        Corazon que si Siente
+        la Ola olo
       </div>
     `
   }

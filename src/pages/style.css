@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: RammettoOne;
+  src: url('/fonts/RammettoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Sriracha;
+  src: url('/fonts/Sriracha-Regular.ttf');
+}
+
+body {
+  user-select: none;
+}
+
+.container {
+  text-align: center;
+  background-image: url('/image/papel.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+.text-title {
+  font-family: RammettoOne;
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.return {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background-color: white;
+  border: 2px solid #ccc;
+  font-size: 1.2em;
+  padding: 5px 1rem;
+  border-radius: 5px;
+}
+
+.return:active {
+  background-color: #191919;
+  border-color: tomato;
+}
+
+.return a {
+  text-decoration: none;
+  color: #181818;
+  cursor: none;
+}
+
+.return a:active {
+  color: tomato;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2em;
+  font-family: Sriracha;
+}

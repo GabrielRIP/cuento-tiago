@@ -1,52 +1,102 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Sriracha;
+  src: url('/fonts/Sriracha-Regular.ttf');
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2em;
+  user-select: none;
 }
 
-.container {
+.app {
   width: 100%;
   height: 100vh;
-  background-image: url('portada.png');
+  background-image: url('image/portada-intro.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  text-align: center;
 }
 
 .title {
-  position: absolute;
-  left: 50%;
-  top: 1rem;
-  transform: translateX(-50%);
-  display: inline;
-  padding: 5px 0.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  color: #181818;
+  display: inline-block;
+  font-family: Sriracha;
+  margin-top: 2rem;
   background-color: white;
-  font-weight: bold;
-}
-
-.sub-title {
+  border-radius: 8px;
   color: navy;
-  text-align: center;
-  margin: 2rem;
-  font-size: 2.3em;
+  padding: 0.5rem 1rem;
 }
 
-.text-parrafo {
-  margin: 1rem;
-  font-size: 2em;
-}
-
-.img-end {
-  margin-left: 50%;
+.colection-book {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  width: 90%;
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: none;
   transform: translateX(-50%);
-  margin-bottom: 4rem;
-  border-radius: 0.5rem;
+  border: 2px dashed whitesmoke;
+  box-shadow: 0 0 1rem rgb(82 65 65 / 100%);
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.colection-book::-webkit-scrollbar {
+  display: none;
+}
+
+.book {
+  color: white;
+  padding: 8px 1rem;
+  margin: 0.4rem;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.book.gato {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.book.mar {
+  background-image: linear-gradient(#464d55, #25292e);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 3px 6px rgb(0 0 0 / 5%);
+}
+
+.book:active {
+  background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
+  color: #181818;
+}
+
+.button-84:hover {
+  box-shadow: rgb(0 1 0 / 20%) 0 2px 8px;
+  opacity: 0.85;
+}
+
+.button-84:active {
+  outline: 0;
+}
+
+.button-84:focus {
+  box-shadow: rgb(0 0 0 / 50%) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
 }
