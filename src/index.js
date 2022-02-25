@@ -7,7 +7,7 @@ const listBooks = document.querySelector('.colection-book')
 listBooks.innerHTML = `
   ${
     LIST_BOOKS.map(book => `
-      <a class="book ${book.key}" href="${book.ruta}">
+      <a class="book ${book.key}" href="./pages/elGatoConBotas/">
         ${book.title}
       </a>
     `)
