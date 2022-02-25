@@ -1,8 +1,9 @@
-const path = require('path')
+const { resolve } = require('path')
+const { defineConfig } = require('vite')
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 const base = mode === 'production' ? '/' + path.basename(process.cwd()) + '/' : '/'
 
-module.exports = {
+module.exports = defineConfig({
   root: 'src',
   base,
   mode,
@@ -12,11 +13,12 @@ module.exports = {
     assetsDir: './',
     rollupOptions: {
       input: {
-        pages: path.resolve(__dirname, 'pages/elGatoconBotas.html')
-      }
-    }
+        main: resolve(__dirname, 'index.html'),
+        pages: resolve(__dirname, 'pages/*.html'),
+      },
+    },
   },
   server: {
     host: true
   }
-}
+})
