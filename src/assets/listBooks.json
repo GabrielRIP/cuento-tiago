@@ -1,4 +1,4 @@
 [
-  { "key": "gato", "title": "El Gato Con Botas", "ruta": "./pages/elGatoConBotas.html" },
+  { "key": "gato", "title": "El Gato Con Botas", "ruta": "./assets/pages/elGatoConBotas.html" },
   { "key": "mar", "title": "El Viejo" }
 ]

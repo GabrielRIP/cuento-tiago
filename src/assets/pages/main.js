@@ -2,7 +2,7 @@
 import './style.css'
 
 // Components
-import '../components/ElGatoConBotas.js'
+import '../../components/ElGatoConBotas.js'
 
 const boxPrincipal = document.querySelector('body .container')
 
