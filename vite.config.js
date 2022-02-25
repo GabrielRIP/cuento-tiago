@@ -12,7 +12,7 @@ module.exports = {
     assetsDir: './',
     rollupOptions: {
       input: {
-        pages: path.resolve(__dirname, 'src/pages/elGatoconBotas.html')
+        pages: path.resolve(__dirname, 'pages/elGatoconBotas.html')
       }
     }
   },
