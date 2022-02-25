@@ -25,6 +25,12 @@ body {
   text-align: center;
 }
 
+@media (orientation: landscape) {
+  .app {
+    background-position-y: 30%;
+  }
+}
+
 .title {
   display: inline-block;
   font-family: Sriracha;

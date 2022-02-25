@@ -51,6 +51,7 @@ class ElGatoConBotas extends HTMLElement {
 
       .image-neko {
         width: 100%;
+        max-width: 550px;
         border-radius: 1rem;
       }
 
@@ -80,7 +81,7 @@ class ElGatoConBotas extends HTMLElement {
       <style>${ElGatoConBotas.styles}</style>
       <h1 class="title">El Gato Con Botas</h1>
       <button class="return">
-        <a href="../index.html">return</a>
+        <a href="../../index.html">return</a>
       </button>
       <div class="box-content">
         <img src="${IMG01}" class="image-neko">
