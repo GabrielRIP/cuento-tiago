@@ -14,7 +14,8 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'src/index.html'),
-        pages: path.resolve(__dirname, 'src/pages/elGatoConBotas/index.html'),
+        pageGato: path.resolve(__dirname, 'src/pages/elGatoConBotas/index.html'),
+        pageBremen: path.resolve(__dirname, 'src/pages/losMusicosDeBremen/index.html')
       },
     },
   },
