@@ -41,7 +41,7 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.colection-book {
+.container {
   position: absolute;
   bottom: 4rem;
   left: 50%;
@@ -60,7 +60,7 @@ body {
   align-items: center;
 }
 
-.colection-book::-webkit-scrollbar {
+.container::-webkit-scrollbar {
   display: none;
 }
 
@@ -72,20 +72,6 @@ body {
   font-size: 1.5em;
   cursor: pointer;
   text-decoration: none;
-}
-
-.book.gato {
-  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
-}
-
-.book.mar {
-  background-image: linear-gradient(#464d55, #25292e);
-  box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 3px 6px rgb(0 0 0 / 5%);
-}
-
-.book:active {
-  background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
-  color: #181818;
 }
 
 .button-84:hover {
@@ -105,4 +91,19 @@ body {
   .button-84 {
     height: 48px;
   }
+}
+
+/* Personalizar cada opcion */
+.book.gato {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.book.musico {
+  background-image: linear-gradient(#464d55, #25292e);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 3px 6px rgb(0 0 0 / 5%);
+}
+
+.book:active {
+  background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
+  color: #181818;
 }
