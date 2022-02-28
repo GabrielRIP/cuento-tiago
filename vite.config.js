@@ -16,7 +16,8 @@ module.exports = defineConfig({
         main: path.resolve(__dirname, 'src/index.html'),
         pageGato: path.resolve(__dirname, 'src/pages/elGatoConBotas/index.html'),
         pageBremen: path.resolve(__dirname, 'src/pages/losMusicosDeBremen/index.html'),
-        pageLiebreTortuga: path.resolve(__dirname, 'src/pages/laLiebreYLaTortuga/index.html')
+        pageLiebreTortuga: path.resolve(__dirname, 'src/pages/laLiebreYLaTortuga/index.html'),
+        pageTresCerditos: path.resolve(__dirname, 'src/pages/losTresCerditos/index.html')
       },
     },
   },
