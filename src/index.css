@@ -107,3 +107,14 @@ body {
   background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
   color: #181818;
 }
+
+.liebre-tortuga {
+  background-color: #0a66c2;
+  color: #fff;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.liebre-tortuga:active {
+  background: #09223b;
+  color: rgb(255 255 255 / 70%);
+}

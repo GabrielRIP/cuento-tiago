@@ -64,6 +64,10 @@ body {
   border-radius: 1rem;
 }
 
+.text-prologo {
+  color: darkgreen;
+}
+
 p {
   font-size: 2em;
   font-family: Sriracha;
