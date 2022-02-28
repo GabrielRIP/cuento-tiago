@@ -2,12 +2,12 @@
 import LOS_MUSICOS_DE_BREMEN from '../../assets/losMusicosDeBremen.json'
 
 // Imports Images
-import IMG01 from '/image/los-musicos-de-bremen/image01.png'
+import IMG01 from '/image/los-musicos-de-bremen/image01.webp'
 import IMG02 from '/image/los-musicos-de-bremen/image02.webp'
 import IMG03 from '/image/los-musicos-de-bremen/image03.webp'
 import IMG04 from '/image/los-musicos-de-bremen/image04.webp'
 import IMG05 from '/image/los-musicos-de-bremen/image05.webp'
-import IMG06 from '/image/los-musicos-de-bremen/image06.png'
+import IMG06 from '/image/los-musicos-de-bremen/image06.webp'
 
 function setFilter(a, b) {
   return LOS_MUSICOS_DE_BREMEN.filter((_, index) => index >= a && index <= b)

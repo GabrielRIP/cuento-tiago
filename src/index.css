@@ -94,17 +94,22 @@ body {
 }
 
 /* Personalizar cada opcion */
-.book.gato {
+.gato {
   background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
 }
 
-.book.musico {
+.gato:active {
+  background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
+  color: #181818;
+}
+
+.musico {
   background-image: linear-gradient(#464d55, #25292e);
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 3px 6px rgb(0 0 0 / 5%);
 }
 
-.book:active {
-  background-image: linear-gradient(92.83deg, #f93a13 0, #ff7426 100%);
+.musico:active {
+  background: white;
   color: #181818;
 }
 
@@ -117,4 +122,14 @@ body {
 .liebre-tortuga:active {
   background: #09223b;
   color: rgb(255 255 255 / 70%);
+}
+
+.los-tres-cerditos {
+  background-color: #ea4c89;
+  color: #fff;
+}
+
+.los-tres-cerditos:active {
+  background: #f082ac;
+  color: #181818;
 }

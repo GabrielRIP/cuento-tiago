@@ -2,12 +2,12 @@
 import EL_GATO_CON_BOTAS from '../../assets/elGatoConBotas.json'
 
 // Imports Images
-import IMG01 from '/image/gato-con-botas/img01.png'
-import IMG02 from '/image/gato-con-botas/img02.png'
-import IMG03 from '/image/gato-con-botas/img03.png'
-import IMG04 from '/image/gato-con-botas/img04.png'
-import IMG05 from '/image/gato-con-botas/img05.png'
-import IMG06 from '/image/gato-con-botas/img06.png'
+import IMG01 from '/image/gato-con-botas/img01.webp'
+import IMG02 from '/image/gato-con-botas/img02.webp'
+import IMG03 from '/image/gato-con-botas/img03.webp'
+import IMG04 from '/image/gato-con-botas/img04.webp'
+import IMG05 from '/image/gato-con-botas/img05.webp'
+import IMG06 from '/image/gato-con-botas/img06.webp'
 
 function setFilter(a, b) {
   return EL_GATO_CON_BOTAS.filter((_, index) => index >= a && index <= b)

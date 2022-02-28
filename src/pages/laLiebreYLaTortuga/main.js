@@ -2,13 +2,13 @@
 import LA_LIEBRE_Y_LA_TORTUGA from '../../assets/laLiebreYLaTortuga.json'
 
 // Imports Images
-import IMG01 from '/image/la-liebre-y-la-tortuga/image01.png'
-import IMG02 from '/image/la-liebre-y-la-tortuga/image02.png'
-import IMG03 from '/image/la-liebre-y-la-tortuga/image03.png'
-import IMG04 from '/image/la-liebre-y-la-tortuga/image04.png'
-import IMG05 from '/image/la-liebre-y-la-tortuga/image05.png'
-import IMG06 from '/image/la-liebre-y-la-tortuga/image06.png'
-import IMG07 from '/image/la-liebre-y-la-tortuga/image07.png'
+import IMG01 from '/image/la-liebre-y-la-tortuga/image01.webp'
+import IMG02 from '/image/la-liebre-y-la-tortuga/image02.webp'
+import IMG03 from '/image/la-liebre-y-la-tortuga/image03.webp'
+import IMG04 from '/image/la-liebre-y-la-tortuga/image04.webp'
+import IMG05 from '/image/la-liebre-y-la-tortuga/image05.webp'
+import IMG06 from '/image/la-liebre-y-la-tortuga/image06.webp'
+import IMG07 from '/image/la-liebre-y-la-tortuga/image07.webp'
 
 function setFilter(a, b) {
   return LA_LIEBRE_Y_LA_TORTUGA.filter((_, index) => index >= a && index <= b)
